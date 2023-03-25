@@ -1,0 +1,15 @@
+Python code is executed by a program called the Python interpreter. The interpreter reads Python code line by line and executes it one line at a time.
+
+Here's how the process works:
+
+1. When you run a Python script, the Python interpreter reads the code from the script file.
+
+2. The interpreter then compiles the code into bytecode, which is a lower-level representation of the code that can be executed more quickly.
+
+3. The interpreter then executes the bytecode, one instruction at a time.
+
+4. As the interpreter executes the code, it may encounter errors or exceptions. If this happens, the interpreter will stop executing the code and raise an error message.
+
+5. If the code runs successfully, the interpreter will produce any output specified in the code, such as printed text or generated data.
+
+It's important to note that the Python interpreter is an interactive program, which means you can also use it to run code line by line in a command prompt or terminal window. This is a great way to experiment with Python code and test out different ideas before writing a full script.
