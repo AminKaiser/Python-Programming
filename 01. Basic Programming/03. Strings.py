@@ -34,3 +34,23 @@ print(string[:5])
 # From starting to last
 print(string[0:])
 print(string[:])
+
+'''
+Stripping: You can remove leading and trailing whitespace from a string
+using the strip() function. For example:
+'''
+# Stripping
+string = "   Hello World   "
+result = string.strip()
+print(result)
+
+'''
+Splitting: You can split a string into a list of substrings using 
+the split() function. The separator between substrings is
+specified as an argument to the function. For example:
+'''
+# Splitting
+string = "Hello World"
+result = string.split(" ")
+print(result)
+
