@@ -26,3 +26,40 @@ my-var = 6 # variable name cannot contain hyphen
 if = 7 # variable name cannot be a reserved keyword
 
 '''
+
+'''
+In Python, variables are used to store values in memory. 
+Unlike other programming languages, Python does not require you to explicitly declare the data type of a variable.
+When you assign a value to a variable, Python automatically assigns a data type based on the value.
+
+For example, if you assign a string to a variable, Python will create a string variable. 
+Similarly, if you assign an integer to a variable, Python will create an integer variable.
+'''
+# Assigning a string to a variable
+name = "John"
+
+# Assigning an integer to a variable
+age = 30
+
+# Assigning a floating-point number to a variable
+salary = 1500.50
+
+
+# You can also assign multiple values to multiple variables in a single line using the following syntax:
+
+x, y, z = "Apple", "Banana", "Cherry"
+
+'''In this case, the value "Apple" is assigned to the variable x, "Banana" is assigned to the variable y, 
+and "Cherry" is assigned to the variable z.
+'''
+
+# Python variables are dynamic, which means you can reassign a variable to a new value of a different data type. For example:
+
+# Assigning a string to a variable
+name = "John"
+
+# Reassigning the variable to an integer
+name = 30
+
+print(name)
+# In this example, the variable "name" is first assigned a string value of "John". Later, it is reassigned to an integer value of 30.
