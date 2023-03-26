@@ -87,3 +87,26 @@ Python also provides built-in functions such as abs(), round(), min(), and max()
 that you can use to perform various operations on numbers.
 Here are some examples:
 '''
+# Absolute value
+result = abs(-10)
+print(result)  # Output: 10
+
+# Rounding
+result = round(3.14159, 2)
+print(result)  # Output: 3.14
+
+# Minimum and maximum
+result = min(4, 7, 2, 9)
+print(result)  # Output: 2
+
+result = max(4, 7, 2, 9)
+print(result)  # Output: 9
+
+'''
+In the above code, we have used the abs(), round(), min(), and max() functions to perform various operations on numbers.
+The abs() function returns the absolute value of a number, 
+the round() function rounds a number to a specified number of decimal places, 
+and the min() and max() functions
+return the minimum and maximum values from a set of numbers.
+
+'''
