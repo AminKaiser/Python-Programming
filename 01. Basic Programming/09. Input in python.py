@@ -7,3 +7,5 @@ The syntax is as follows:
 
 '''
 user_input = input("Enter your input: ")
+print(user_input)
+print(type(user_input))
