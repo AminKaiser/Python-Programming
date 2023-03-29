@@ -35,3 +35,19 @@ All other values are considered True when converted to a Boolean data type.
 
 The bool() function is often used in conditional statements to check if a value is True or False. For example
 '''
+x = 5
+y = []
+z = bool(x)
+w = bool(y)
+
+print("The Boolean value of x is:", z)
+print("The Boolean value of y is:", w)
+
+'''
+In this example, we define two variables x and y, with the value 5 and an empty list [], respectively.
+We then use the bool() function to get the Boolean value of each variable and assign it to the variables z and w.
+Finally, we print the Boolean values of x and y using the print() function.
+This is because x is a non-zero number and therefore truthy, while y is an empty list and therefore falsy.
+
+
+'''
