@@ -18,7 +18,8 @@ else:
 print("Your grade is", grade)
 
 '''
-In this program, the user is prompted to enter a score using the input() function, which is then converted to an integer using the int() function and stored in the score variable.
+In this program, the user is prompted to enter a score using the input() function, 
+which is then converted to an integer using the int() function and stored in the score variable.
 
 The program then uses a conditional statement to determine the letter grade for the given score. 
 The first if statement checks whether score is greater than or equal to 90. 
