@@ -68,9 +68,4 @@ This expression evaluates to True or False, which is True.
 
 Therefore, the final value of the result variable is True.
 
-
-
-
-Regenerate response
-
 '''
