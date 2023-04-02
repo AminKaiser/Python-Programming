@@ -38,3 +38,13 @@ the variable num takes on the value of each even number in turn, and the code in
 '''
 These examples demonstrate how the range() function can be used with for loops in Python to iterate over a sequence of numbers, and how different arguments can be used to customize the range of numbers and the step size of the sequence.
 '''
+for num in range(1, 11):
+    if num % 2 == 0:
+        print(num, "is even")
+    else:
+        print(num, "is odd")
+
+'''
+In this example, we use the range() function with two arguments: 1 specifies the lower limit of the sequence (included), and 11 specifies the upper limit of the sequence (not included), which returns a sequence of numbers from 1 to 10. 
+During each iteration of the loop, the variable num takes on the value of each number in turn, and the code inside the loop checks if the number is even or odd, and prints a message to the console accordingly.
+'''
