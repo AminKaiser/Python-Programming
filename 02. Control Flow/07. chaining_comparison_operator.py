@@ -29,6 +29,7 @@ However, it's important to use parentheses to explicitly group the conditions an
 
 age = 25
 
+# if (18 <= age) and (age < 65)
 if 18 <= age < 65:
     print("You are of working age")
 else:
