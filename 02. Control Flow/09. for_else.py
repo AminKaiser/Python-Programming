@@ -82,7 +82,9 @@ else:
     print('No odd numbers found')
 
 """
-In this example, we have a list of even numbers and we are checking if there are any odd numbers in the list. We use a for loop to iterate through the list, and if we find an odd number, we print a message and break out of the loop.
+In this example, we have a list of even numbers and we are checking if there are any odd numbers in the list. 
+We use a for loop to iterate through the list, and if we find an odd number, we print a message and break out of the loop.
 
-However, if we reach the end of the loop without finding any odd numbers, the else block is executed and we print a message indicating that no odd numbers were found.
+However, if we reach the end of the loop without finding any odd numbers, 
+the else block is executed and we print a message indicating that no odd numbers were found.
 """
