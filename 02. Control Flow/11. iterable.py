@@ -32,7 +32,11 @@ my_set = {1, 2, 3, 4, 5}
 for num in my_set:
     print(num)
 
-# file
-with open('myfile.txt', 'r') as f:
-    for line in f:
-        print(line)
+# # file
+# with open('myfile.txt', 'r') as f:
+#     for line in f:
+#         print(line)
+'''
+In each of these examples, we are using a for loop to iterate over an iterable and perform some operation on each element.
+The for loop automatically retrieves each element from the iterable using the iterator returned by the __iter__() method or the __getitem__() method.
+'''
