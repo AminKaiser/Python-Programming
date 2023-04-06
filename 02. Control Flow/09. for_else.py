@@ -64,3 +64,25 @@ for fruit in fruits:
         break
 else:
     print('No fruits with "p" found')
+'''
+In this example, we have a list of fruits and we are searching for the first fruit that contains the letter 'p'. 
+We use a for loop to iterate through the list, and if we find a fruit with 'p', we print it and break out of the loop.
+
+However, if we reach the end of the loop without finding any fruits with 'p', 
+the else block is executed and we print a message indicating that no fruits with 'p' were found.
+
+'''
+numbers = [2, 4, 6, 8, 10]
+
+for num in numbers:
+    if num % 2 == 1:
+        print('Odd number found')
+        break
+else:
+    print('No odd numbers found')
+
+"""
+In this example, we have a list of even numbers and we are checking if there are any odd numbers in the list. We use a for loop to iterate through the list, and if we find an odd number, we print a message and break out of the loop.
+
+However, if we reach the end of the loop without finding any odd numbers, the else block is executed and we print a message indicating that no odd numbers were found.
+"""
