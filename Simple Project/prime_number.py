@@ -67,3 +67,20 @@ If we don't find any factors, we print a message saying that num is a prime numb
 If num is not greater than 1, we print a message saying that it is not a prime number.
 
 '''
+# example program in Python to check if a number is prime or not using the square root optimization:
+
+import math
+
+num = int(input("Enter a number: "))
+
+# A number is prime if it is greater than 1 and has no positive divisors other than 1 and itself
+if num > 1:
+    # Check for factors up to the square root of the number
+    for i in range(2, math.isqrt(num) + 1):
+        if num % i == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
+else:
+    print(num, "is not a prime number")
