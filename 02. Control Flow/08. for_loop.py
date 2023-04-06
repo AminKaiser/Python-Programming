@@ -27,6 +27,7 @@ During each iteration of the loop, the variable num takes on the value of each n
 Here's another example that demonstrates using range() with a for loop to iterate over a sequence of even numbers:
 '''
 print("*" * 20)
+
 for num in range(0, 10, 2):
     print(num)
 
