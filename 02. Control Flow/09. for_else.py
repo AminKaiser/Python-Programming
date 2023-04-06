@@ -55,3 +55,12 @@ we check if the letter 'a' is not present in it.
 If a fruit is found that does not contain the letter 'a', we print its name. 
 If all fruits in the list have the letter 'a', we print a message indicating that all fruits have the letter 'a'.
 '''
+
+fruits = ['apple', 'banana', 'cherry', 'kiwi']
+
+for fruit in fruits:
+    if 'p' in fruit:
+        print(fruit)
+        break
+else:
+    print('No fruits with "p" found')
