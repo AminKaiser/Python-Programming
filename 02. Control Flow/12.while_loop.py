@@ -24,6 +24,18 @@ We then have a while loop that runs as long as i is less than or equal to 5.
 Inside the loop, we print the value of i, and then increment i by 1. 
 This process continues until i becomes greater than 5.
 '''
+
+# This program counts from 1 to 10 using a while loop
+
+count = 1  # Initialize the count variable to 1
+
+while count <= 10:  # Repeat the following code as long as count is less than or equal to 10
+    print(count)  # Print the value of count
+    count += 1  # Increase the value of count by 1
+
+print("Done!")  # Print a message indicating that the loop has finished
+
+
 num = int(input("Enter a number: "))
 factorial = 1
 i = 1
