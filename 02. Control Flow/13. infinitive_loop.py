@@ -21,3 +21,9 @@ count = 0
 
 while count == 0:
     print("This loop will also run forever!")
+
+'''
+In this case, the loop condition is count == 0. 
+Since count is initialized to 0 and never changes within the loop, 
+the condition will always be true, resulting in an infinite loop.
+'''
