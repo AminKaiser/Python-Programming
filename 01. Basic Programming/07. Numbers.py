@@ -30,7 +30,7 @@ b = 3
 c = a + b
 print(c)  # output: 8
 
-# Subtraction
+# c
 a = 5
 b = 3
 c = a - b

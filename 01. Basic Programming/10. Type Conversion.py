@@ -14,7 +14,7 @@ In the above code, even if the user enters a number or any other type of
 input, it will be treated as a string.
 If you want to perform arithmetic operations on the input as a number,
 you'll need to convert the string to a numeric type such as an integer or
-a float using the appropriate conversion function (int() or float() or boo()).
+a float using the appropriate conversion function (int() or float() or bool()).
 
 For example:
 '''
